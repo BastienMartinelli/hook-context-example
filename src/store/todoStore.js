@@ -1,5 +1,9 @@
 import createStore from "../utils/createStore";
 
+/**
+ * Our store is just made of a reducer and an initial value
+ */
+
 const initialState = {
   todo: ["manger", "dormir"],
   done: ["travailler"]

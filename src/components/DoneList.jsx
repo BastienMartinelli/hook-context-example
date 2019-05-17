@@ -6,6 +6,8 @@ import TodoStore from "../store/";
 import Todo from "./Todo";
 
 function DoneList() {
+  // Using the Consumer we can inject the state
+  // and dispatch function
   return (
     <TodoStore.Consumer>
       {([state, dispatch]) => (

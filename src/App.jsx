@@ -12,6 +12,8 @@ import DoneList from "./components/DoneList";
 import AddTodo from "./components/AddTodo";
 
 function App() {
+  // Our store provider will make the sotre available
+  // to all child components
   return (
     <TodoStore.Provider>
       <CssBaseline />

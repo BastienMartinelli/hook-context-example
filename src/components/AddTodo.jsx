@@ -10,6 +10,8 @@ const containerStyle = { margin: 50, textAlign: "center" };
 
 function AddTodo() {
   const [value, setValue] = useState("");
+
+  //we can use the useStore hook to get the dispatch function
   const [, dispatch] = store.useStore();
 
   function onSubmit(e) {

@@ -6,6 +6,8 @@ import todoStore from "../store/";
 import Todo from "./Todo";
 
 function TodoList() {
+  // we can make use of the useStore hook to get
+  // the state and the dispatch function
   const [{ todo }, dispatch] = todoStore.useStore();
 
   return (
