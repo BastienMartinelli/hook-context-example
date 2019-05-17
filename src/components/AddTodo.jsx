@@ -22,6 +22,7 @@ function AddTodo() {
         type: "@TODO/TODO",
         payload: value
       });
+      setValue('')
     }
   }
 
@@ -39,6 +40,7 @@ function AddTodo() {
           variant="outlined"
           color="primary"
           type="submit"
+          size="large"
         >
           ADD TODO 🚀
         </Button>
